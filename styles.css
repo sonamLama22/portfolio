@@ -1,0 +1,43 @@
+.navbar-nav .nav-link {
+  margin-right: 30px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+.navbar-nav li a:hover {
+  color: lightblue;
+}
+body {
+  background: linear-gradient(120deg, #a3d2fc, #f3f0f1);
+  width: 100vw;
+  height: 100vh;
+}
+.about-me {
+  margin: 20px 30px;
+}
+/*home section styling*/
+.home {
+  display: flex;
+  background: url("images/adobepic\ \(1\).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  min-height: 500px;
+}
+.home .max-width {
+  margin: 250px 40px;
+}
+.home .home-content .text-1 {
+  font-size: 25px;
+}
+.home .home-content .text-2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.home .home-content .text-3 {
+  font-size: 27px;
+  margin: 5px 0;
+}
+.home .home-content .text-3 span {
+  color: lightcoral;
+  font-weight: 500;
+}
